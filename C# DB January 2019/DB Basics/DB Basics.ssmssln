@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DataDefinitionAndDataTypes", "DataDefinitionAndDataTypes\DataDefinitionAndDataTypes.ssmssqlproj", "{5394A043-56C0-4F2C-B5E6-2A8F21AEF0CA}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BasicCRUD", "BasicCRUD\BasicCRUD.ssmssqlproj", "{CE0272A4-B5C2-4A70-BE1E-1610E6C1CC8B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Built-InFunctions", "Built-InFunctions\Built-InFunctions.ssmssqlproj", "{721757B4-72E6-4857-9E2C-0299646A1790}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DataAggregation", "DataAggregation\DataAggregation.ssmssqlproj", "{5FDD348B-ADD7-4CB8-9911-9E980C4CCC34}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "AdditionalEX", "AdditionalEX\AdditionalEX.ssmssqlproj", "{39FA4614-62CA-4DE4-AE96-4AB9A009C9B4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TableRelations", "TableRelations\TableRelations.ssmssqlproj", "{0FEF7A0D-B31C-4890-BD5D-8C1FDDE354CC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SubqueriesAndJoins", "SubqueriesAndJoins\SubqueriesAndJoins.ssmssqlproj", "{87D9D820-394D-4614-BC57-EEC1FBB4C83E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ExamPrep", "ExamPrep\ExamPrep.ssmssqlproj", "{3FF180E7-35F5-4456-813E-FA45AB532B45}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DatabaseProgrammabilityAndTransactions", "DatabaseProgrammabilityAndTransactions\DatabaseProgrammabilityAndTransactions.ssmssqlproj", "{84F245EA-C3CE-4301-A9BA-14EFE33D0EA6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Exam", "Exam\Exam.ssmssqlproj", "{A87DA838-745C-4E87-B608-DBDD87280D6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5394A043-56C0-4F2C-B5E6-2A8F21AEF0CA}.Default|Default.ActiveCfg = Default
+		{CE0272A4-B5C2-4A70-BE1E-1610E6C1CC8B}.Default|Default.ActiveCfg = Default
+		{721757B4-72E6-4857-9E2C-0299646A1790}.Default|Default.ActiveCfg = Default
+		{5FDD348B-ADD7-4CB8-9911-9E980C4CCC34}.Default|Default.ActiveCfg = Default
+		{39FA4614-62CA-4DE4-AE96-4AB9A009C9B4}.Default|Default.ActiveCfg = Default
+		{0FEF7A0D-B31C-4890-BD5D-8C1FDDE354CC}.Default|Default.ActiveCfg = Default
+		{87D9D820-394D-4614-BC57-EEC1FBB4C83E}.Default|Default.ActiveCfg = Default
+		{3FF180E7-35F5-4456-813E-FA45AB532B45}.Default|Default.ActiveCfg = Default
+		{84F245EA-C3CE-4301-A9BA-14EFE33D0EA6}.Default|Default.ActiveCfg = Default
+		{A87DA838-745C-4E87-B608-DBDD87280D6B}.Default|Default.ActiveCfg = Default
+		{9D06D25B-AFC4-4C3C-8B00-72D5EBC68DDE}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

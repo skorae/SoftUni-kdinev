@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalPrograming EX", "FunctionalPrograming EX\FunctionalPrograming EX.csproj", "{A74CC49E-2CC3-480F-92D2-9E7F5A2DBB86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAndExecute", "ReverseAndExecute\ReverseAndExecute.csproj", "{3CA593B5-9D88-415D-8107-4035BB72514E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A74CC49E-2CC3-480F-92D2-9E7F5A2DBB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74CC49E-2CC3-480F-92D2-9E7F5A2DBB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74CC49E-2CC3-480F-92D2-9E7F5A2DBB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74CC49E-2CC3-480F-92D2-9E7F5A2DBB86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA593B5-9D88-415D-8107-4035BB72514E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA593B5-9D88-415D-8107-4035BB72514E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA593B5-9D88-415D-8107-4035BB72514E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA593B5-9D88-415D-8107-4035BB72514E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CEF74A6-35B5-4275-B975-2ADF7B798FB5}
+	EndGlobalSection
+EndGlobal

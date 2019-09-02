@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Categories>
+  <Category>
+    <Name>Drinks</Name>
+    <MostPopularItem>
+      <Name>Purple Drink</Name>
+      <TotalMade>144.4</TotalMade>
+      <TimesSold>7</TimesSold>
+    </MostPopularItem>
+  </Category>
+  <Category>
+    <Name>Toys</Name>
+    <MostPopularItem>
+      <Name>Minion</Name>
+      <TotalMade>117.8</TotalMade>
+      <TimesSold>11</TimesSold>
+    </MostPopularItem>
+  </Category>
+  <Category>
+    <Name>Chicken</Name>
+    <MostPopularItem>
+      <Name>Tasty Basket</Name>
+      <TotalMade>81.5</TotalMade>
+      <TimesSold>6</TimesSold>
+    </MostPopularItem>
+  </Category>
+</Categories>
