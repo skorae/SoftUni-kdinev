@@ -1,15 +1,17 @@
 ﻿using System;
+using System.Linq;
 
 public class ArrayList<T>
 {
-    public int Count { get; set; }
-    public T[] items { get; set; }
+    private const int InitialCount = 2;
+    private T[] items;
 
     public ArrayList()
     {
-        this.Count = 2;
-        this.items = new T[this.Count];
+        this.items = new T[InitialCount];
     }
+
+    public int Count { get; private set; }
 
     public T this[int index]
     {
@@ -17,41 +19,83 @@ public class ArrayList<T>
         {
             if (index >= this.Count)
             {
-                throw new IndexOutOfRangeException();
+                throw new ArgumentOutOfRangeException();
             }
-            return items[index];
+
+            return this.items[index];
         }
 
         set
         {
             if (index >= this.Count)
             {
-                throw new IndexOutOfRangeException();
+                throw new ArgumentOutOfRangeException();
             }
-            items[index] = value;
+
+            this.items[index] = value;
         }
     }
 
     public void Add(T item)
     {
-        for (int i = 0; i < this.items.Length; i++)
+        if (this.Count == this.items.Length)
         {
-            if (items[i] == null)
-            {
-                items[i] = item;
-            }
+            this.Resize();
         }
+
+        this.items[this.Count++] = item;
     }
 
     public T RemoveAt(int index)
     {
-        T value = items[index];
-        items.SetValue(null, index);
-        return value;
+        if (index >= this.Count)
+        {
+            throw new ArgumentOutOfRangeException();
+        }
+
+        T element = this.items[index];
+
+        this.items[index] = default(T);
+        this.Shift(index);
+        this.Count--;
+
+        if (this.Count <= this.items.Length / 4)
+        {
+            this.Shrink();
+        }
+
+        return element;
+    }
+
+    private void Shrink()
+    {
+        T[] copy = new T[this.items.Length / 2];
+
+        for (int i = 0; i < this.Count; i++)
+        {
+            copy[i] = this.items[i];
+        }
+
+        this.items = copy;  
+    }
+
+    private void Shift(int index)
+    {
+        for (int i = index; i < this.Count; i++)
+        {
+            this.items[i] = this.items[i + 1];
+        }
     }
 
     private void Resize()
     {
+        T[] copy = new T[this.Count * 2];
 
+        for (int i = 0; i < this.items.Length; i++)
+        {
+            copy[i] = this.items[i];
+        }
+
+        this.items = copy;
     }
 }
